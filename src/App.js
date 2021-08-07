@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <Inline />
-      <StyleSheet primary = {true}/>
+      <StyleSheet primary = {false}/>
     </div>
   );
 };
