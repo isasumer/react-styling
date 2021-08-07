@@ -1,1 +1,11 @@
+.button-container {
+    display :flex;
+    justify-content: center;
 
+    .button {
+        border-radius: 5px;
+        color: red;
+        width:60px;
+    }
+
+}
