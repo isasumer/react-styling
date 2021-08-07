@@ -4,8 +4,28 @@
 
     .button {
         border-radius: 5px;
-        color: red;
-        width:60px;
+        color: white;
     }
+    // .button-container--small {
+    //     background-color: stellblue;
+    //     padding:15px;
+  
+    // }
+    // .button-container--large {
+    //     background-color: crimson;
+    //     padding: 10px 15px;
+    //     margin-left :10px;
+    // }
 
+    &--{
+        &small {
+            background-color: $primaryTextColor;
+            padding:5px;
+        }
+        &large {
+            background-color: $secondaryTextColor;
+            padding: 10px 15px;
+            margin-left :10px;
+        }
+    }
 }
